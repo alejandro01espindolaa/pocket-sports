@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(135deg, #333333, #1a1a1a);
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+main {
+    text-align: center;
+}
