@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Sports Kids - Productos Deportivos para Niños</title>
+    <link rel="stylesheet" href="./niño.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">Pocket Sports <span>Kids</span></div>
+            <button class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Mi Cuenta</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de cabecera de productos -->
+    <section class="products-header">
+        <div class="container">
+            <h2 class="section-title animate-fadeIn">Productos Deportivos para Niños</h2>
+            <p class="section-description animate-fadeIn">Descubre nuestra amplia selección de productos deportivos diseñados específicamente para niños. Equipamiento de calidad, seguro y divertido para que los pequeños atletas desarrollen sus habilidades.</p>
+
+    <!-- Cuadrícula de productos -->
+    <section class="products-grid-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <img src="./images/balon.png" alt="Balón de fútbol para niños">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Fútbol</div>
+                        <h3 class="product-title">Balón de Fútbol Junior</h3>
+                        <p class="product-description">Balón de fútbol tamaño 4, perfecto para niños. Diseñado con materiales duraderos y ligeros para un mejor control.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$250</span>
+                                <span class="price">$200</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 6-12 años</div>
+                        <button onclick="agregarCarrito('Balon futbol', 200)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">-15%</div>
+                    <div class="product-image">
+                        <img src="./images/tennisNiño.png" alt="Zapatillas Niño">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Running</div>
+                        <h3 class="product-title">Tenis Niño</h3>
+                        <p class="product-description">Tenis deportivos con amortiguación especial para niños. Suela antideslizante y cierre de velcro fácil de usar.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$600</span>
+                                <span class="price">$510</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 4-8 años</div>
+                        <button onclick="agregarCarrito('Tenis niño', 510)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">-15%</div>
+                    <div class="product-image">
+                        <img src="./images/tennisNiña.png" alt="Zapatillas Niña">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Running</div>
+                        <h3 class="product-title">Tenis Niña</h3>
+                        <p class="product-description">Tenis deportivos con amortiguación especial para niñas. Suela antideslizante y cierre de velcro fácil de usar.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$600/span>
+                                <span class="price">$510</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 4-8 años</div>
+                        <button onclick="agregarCarrito('Tenis niña', 510)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/baloncesto.png" alt="Balón de baloncesto para niños">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Baloncesto</div>
+                        <h3 class="product-title">Balón de Baloncesto Mini</h3>
+                        <p class="product-description">Balón de baloncesto tamaño 5, ideal para niños. Excelente agarre y rebote para mejorar las habilidades.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$300</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 7-12 años</div>
+                        <button onclick="agregarCarrito('Balon baloncesto', 300)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 5 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="./images/raquetas.png" alt="Set de raquetas para niños">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Tennis</div>
+                        <h3 class="product-title">Set de raquetas para niños</h3>
+                        <p class="product-description">Set de 2 raquetas de tennis para niños con pelotas incluidas. Ligeras y resistentes para un juego cómodo.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$500</span>
+                                <span class="price">$400</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 8-14 años</div>
+                        <button onclick="agregarCarrito('Set raquetas', 400)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 6 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/cascoNiño.png" alt="Casco de beisbol unisex">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">béisbol</div>
+                        <h3 class="product-title">Casco de béisbol Unisex</h3>
+                        <p class="product-description">Casco de béisbol Unisex, ajustable para diferentes edades</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$350</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 5-10 años</div>
+                        <button onclick="agregarCarrito('Casco veisbol', 350)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 7 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Oferta</div>
+                    <div class="product-image">
+                        <img src="./images/gafasNiño.png" alt="Gafas de natación para niño">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Natación</div>
+                        <h3 class="product-title">Gafas de natación para niño</h3>
+                        <p class="product-description">Gafas de natación anti-vaho con protección UV. Ajuste cómodo y suave para niños con correa elástica ajustable.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$250</span>
+                                <span class="price">$200</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 3-10 años</div>
+                        <button onclick="agregarCarrito('Gafas Niño', 200)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 8 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/gafasNiña.png" alt="Gafas de natación para niña">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Natación</div>
+                        <h3 class="product-title">Gafas de natación para niña</h3>
+                        <p class="product-description">Gafas de natación anti-vaho con protección UV. Ajuste cómodo y suave para niñas con correa elástica ajustable.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$300</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 3-10 años</div>
+                        <button onclick="agregarCarrito('Gafas Niño', 300)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 9 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <img src="./images/colchoneta.png" alt="Colchoneta de gimnasia para niños">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gimnasia</div>
+                        <h3 class="product-title">Colchoneta Plegable Junior</h3>
+                        <p class="product-description">Colchoneta de gimnasia plegable con asas, ideal para ejercicios en casa o escuela. Material suave y resistente.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$250</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 4-12 años</div>
+                        <button onclick="agregarCarrito('Gafas Niño', 250)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de información adicional -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title animate-fadeIn">¿Por qué elegir Pocket Sports Kids?</h2>
+            
+            <div class="info-grid">
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🛡️</div>
+                    <h3 class="info-title">Seguridad Garantizada</h3>
+                    <p class="info-text">Todos nuestros productos cumplen con los estándares internacionales de seguridad para niños. Materiales no tóxicos y diseños que previenen lesiones.</p>
+                </div>
+                
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🌈</div>
+                    <h3 class="info-title">Diseños Divertidos</h3>
+                    <p class="info-text">Colores vibrantes y diseños atractivos que motivan a los niños a mantenerse activos y disfrutar del deporte desde temprana edad.</p>
+                </div>
+                
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🌱</div>
+                    <h3 class="info-title">Materiales Sostenibles</h3>
+                    <p class="info-text">Comprometidos con el futuro de los niños, utilizamos materiales reciclados y procesos de fabricación respetuosos con el medio ambiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">Pocket Sports Kids</div>
+                    <p class="footer-about">Tienda especializada en productos deportivos para niños, donde combinamos seguridad, diversión y tecnología para los pequeños atletas.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">t</a>
+                        <a href="#" class="social-link">in</a>
+                        <a href="#" class="social-link">ig</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Soporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Guías de Tallas</a></li>
+                        <li><a href="#">Envíos y Devoluciones</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pocket Sports Kids. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="carrito.js"></script>
