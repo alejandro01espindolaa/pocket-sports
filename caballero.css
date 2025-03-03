@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif
 }
 
 body {
     background: linear-gradient(135deg, #333333, #1a1a1a);
     color: #ffffff;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
