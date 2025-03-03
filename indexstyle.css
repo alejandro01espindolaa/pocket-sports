@@ -44,6 +44,46 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Inicio modificacion botonm*/
+
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;  /* Cambiado de right a left */
+    width: 300px;
+    height: 100vh;
+    background: linear-gradient(135deg, #333, #111);
+    padding-top: 80px;
+    transition: 0.5s;
+    z-index: 1000;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5); /* Ajuste de sombra */
+}
+
+.nav-menu.active {
+    left: 0;  /* Cambiado de right a left */
+}
+
+/* Mejora en la visibilidad de los enlaces */
+.nav-menu ul li {
+    margin: 25px 0;
+    padding: 0 25px;
+}
+
+.nav-menu ul li a {
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-menu ul li a:hover {
+    background: rgba(255, 204, 0, 0.1);
+}
+
+/* termino de modificacion botonm*/
+
 .menu-btn {
     background: linear-gradient(45deg, #ff9500, #ffcc00);
     color: #fff;
