@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Sports Mens - Productos Deportivos para Hombres</title>
+    <link rel="stylesheet" href="./caballero.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">Pocket Sports <span>Mens</span></div>
+            <button class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Mi Cuenta</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de cabecera de productos -->
+    <section class="products-header">
+        <div class="container">
+            <h2 class="section-title animate-fadeIn">Productos Deportivos para Hombres</h2>
+            <p class="section-description animate-fadeIn">Descubre nuestra amplia selección de productos deportivos
+                diseñados específicamente para hombres. Equipamiento de calidad, seguro y exclusivo para que los grandes
+                atletas desarrollen sus habilidades.</p>
+
+
+        </div>
+    </section>
+
+    <!-- Cuadrícula de productos -->
+    <section class="products-grid-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Euro</div>
+                    <div class="product-image">
+                        <img src="./images/balonadidas.png" alt="Balón de fútbol Adidas">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Futbol</div>
+                        <h3 class="product-title">Balón de fútbol Adidas euro 24 training</h3>
+                        <p class="product-description">Lleva el juego a otro nivel en cuanto ruede el Balón de Fútbol
+                            adidas Euro 24 Training, su diseño está inspirado en todas las naciones que participarán en
+                            esta edición. </p>
+                        <div class="product-price">
+
+                            <div>
+                                <span class="original-price">$750</span>
+                                <span class="price">$450</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Unisex</div>
+                        <br>
+                        <button onclick="agregarCarrito('Balón de fútbol Adidas euro 24 training', 450)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">-15%</div>
+                    <div class="product-image">
+                        <img src="./images/tenistherock.png" alt="Tenis Under Armour ">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Training</div>
+                        <h3 class="product-title">Tenis Under Armour Project Rock Bsr 4 Hombre</h3>
+                        <p class="product-description">Es momento de realizar actividades dinámicas con los nuevos tenis
+                            Project Rock BSR 4 para hombre de la marca Under Armour. Tiene una suela UA TriBase que
+                            maximiza el contacto con el suelo y promueve el movimiento natural.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$2500</span>
+                                <span class="price">$2125</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla 27</div>
+                        <button onclick="agregarCarrito('Tenis Under Armour Project Rock Bsr 4 Hombre', 2125)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">WWE</div>
+                    <div class="product-image">
+                        <img src="./images/john_cena.png" alt="Gorra John Cena Farewell Tour">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gorras</div>
+                        <h3 class="product-title">Gorra John Cena Farewell Tour</h3>
+                        <p class="product-description">Artículo oficial de WWE, diseñado para conmemorar la despedida de
+                            John Cena. Esta gorra de béisbol presenta un diseño audaz y gráfico. Anima a tu
+                            superestrella favorita hasta la victoria</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$750</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla Grande</div>
+                        <br>
+                        <br>
+                        <button onclick="agregarCarrito('Gorra John Cena Farewell Tour', 750)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Top</div>
+                    <div class="product-image">
+                        <img src="./images/tenisnikedown.png" alt="Tenis Nike Downshifter">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Running</div>
+                        <h3 class="product-title">Tenis Nike Downshifter 13 Hombre</h3>
+                        <p class="product-description">Empieza tu recorrido con los nuevos tenis Downshifter 13 para
+                            hombre de la marca Nike. Cuentan con un diseño renovado en cuanto a la parte superior, la
+                            amortiguación y la durabilidad. La suela tiene una confección Nike Grind.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$1800</span>
+                                <span class="price">$1200</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla 27-28</div>
+                        <br>
+                        <button onclick="agregarCarrito('Tenis Nike Downshifter 13 Hombre', 1200)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/tenishunderarmc4.png" alt="Tenis Under Armour Commit 4 Hombre">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Training</div>
+                        <h3 class="product-title">Tenis Under Armour Commit 4 Hombre</h3>
+                        <p class="product-description">Los nuevos tenis Under Armour Commit 4 son perfectos para
+                            mantenerte activo. La tecnología Cushioning en la entresuela te brinda una mejor absorción
+                            de impacto. La plantilla Deluxe Comfort System está encargada de brindar comodidad.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$1950</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla 29</div>
+                        <br>
+                        <button onclick="agregarCarrito('Tenis Under Armour Commit 4 Hombre', 1950)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">AEROREADY</div>
+                    <div class="product-image">
+                        <img src="./images/Playera_adidas.png" alt="Playera adidas Mercedes">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Playeras</div>
+                        <h3 class="product-title">Playera adidas Mercedes Motorsport Hombre</h3>
+                        <p class="product-description">Toma el control con la nueva playera adidas Mercedes Motorsport
+                            para hombre. En su diseño incorporan tecnología AEROREADY para controlar la humedad y
+                            mejorar el rendimiento. Muestra los logos Mercedes - AMG PETRONAS F1 Team y los logos de los
+                            patrocinadores.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$969</span>
+                                <span class="price">$696</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla M, G</div>
+                        <button onclick="agregarCarrito('Playera adidas Mercedes Motorsport Hombre', 696)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 7 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/tenisf250.png" alt="Taquetes adidas F50 Club FG">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Futbol</div>
+                        <h3 class="product-title">Taquetes adidas F50 Club FG- Messi</h3>
+                        <p class="product-description">Estos taquetes de fútbol adidas están inspirados en el legendario
+                            Lionel Messi y diseñados para ofrecer velocidad y control en la cancha.</p>
+                        <br>
+                        <div class="product-price">
+                            
+                            <div>
+                                <span class="price">$1500</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla 27</div>
+                        <br>
+                        <button onclick="agregarCarrito('Taquetes adidas F50 Club FG- Messi', 1500)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 8 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">NFL</div>
+                    <div class="product-image">
+                        <img src="./images/gorrariders.png" alt="Gorra New Era Las Vegas Raiders NFL">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Futbol</div>
+                        <h3 class="product-title">Gorra New Era Las Vegas Raiders NFL Sideline 2024</h3>
+                        <p class="product-description">
+                            La nueva colección NFL Sideline 2024 llegó con la nueva gorra New Era Las Vegas Raiders. Su
+                            bordado frontal te muestra el logotipo de los Raiders, en el costado derecho un parche
+                            conmemorativo y el logo de la NFL en la parte trasera.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$799</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla G</div>
+                        <button onclick="agregarCarrito('Gorra New Era Las Vegas Raiders NFL Sideline 2024', 799)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 9 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">MLB</div>
+                    <div class="product-image">
+                        <img src="./images/gorraYN.png" alt="Gorra Forty Seven Yankees De Nueva York MVP MLB">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Béisbol</div>
+                        <h3 class="product-title">Gorra Forty Seven Yankees De Nueva York MVP MLB</h3>
+                        <p class="product-description">
+                            Apoya a tu equipo en esta nueva temporada con la gorra Yankees de Nueva York MVP de la marca 47. Disfruta de la gran sensación de comodidad que te ofrecen sus materiales suaves y ligeros,
+                            mientras que su visera curva te añade muy buena protección.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$600</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Talla G, M</div>
+                        <button onclick="agregarCarrito('Gorra Forty Seven Yankees De Nueva York MVP MLB', 600)"
+                            class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de información adicional -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title animate-fadeIn">¿Por qué elegir Pocket Sports Kids?</h2>
+
+            <div class="info-grid">
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">💪💪</div>
+                    <h3 class="info-title">Calidad Garantizada</h3>
+                    <p class="info-text">Todos nuestros productos cumplen con los estándares internacionales de
+                        calidad. Materiales no tóxicos y diseños de ultimo momento.</p>
+                </div>
+
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🏅</div>
+                    <h3 class="info-title">Deportivos Exclusivos</h3>
+                    <p class="info-text">Con nuestros enlaces de diferentes empresas pioneras en el deporte te traemos productos exclusivos. </p>
+                </div>
+
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🌱</div>
+                    <h3 class="info-title">Materiales Sostenibles</h3>
+                    <p class="info-text">Comprometidos con el futuro del mundo, utilizamos materiales reciclados y
+                        procesos de fabricación respetuosos con el medio ambiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">Pocket Sports Mens</div>
+                    <p class="footer-about">Tienda especializada en productos deportivos para atletas.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">t</a>
+                        <a href="#" class="social-link">in</a>
+                        <a href="#" class="social-link">ig</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Soporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Guías de Tallas</a></li>
+                        <li><a href="#">Envíos y Devoluciones</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pocket Sports Mens. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="carrito.js"></script>
