@@ -4,13 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Cambia la fuente aquí */
 }
+
 
 body {
     background: linear-gradient(135deg, #333333, #1a1a1a);
     color: #ffffff;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif; /* También puedes agregarlo aquí para mayor seguridad */
 }
 
 .container {
@@ -36,6 +38,16 @@ header {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaciado entre el logo y el texto */
+}
+
+.small-logo {
+    width: 30px; /* Tamaño pequeño */
+    height: auto;
+}
 .logo {
     font-size: 28px;
     font-weight: bold;
