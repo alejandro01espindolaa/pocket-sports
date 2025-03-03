@@ -43,16 +43,19 @@ function agregarCarrito(articulo, precio) {
                
 
 
-        pagoTotal = pagoTotal + precioArticulo;
-        localStorage.setItem(100,pagoTotal)
+    pagoTotal = pagoTotal + precioArticulo;
+    localStorage.setItem(100,pagoTotal)
 
     localStorage.setItem(id, JSON.stringify(json));
     
     console.log(json);
 }
 
-function eliminarArticulo(id) {
-    localStorage.removeItem(id);
+function eliminarCarrito() {
+    for (let i = 0; i <= 100; i++) {
+        localStorage.removeItem(i);
+    }
+    location.reload();
 }
 
 function mostrarCarrito() {
@@ -66,7 +69,14 @@ function mostrarCarrito() {
             addItem(i, element);
         }
     }
+
+    if (localStorage.getItem(100) == null) {
+        document.getElementById("pagoTotal").innerText = "Ve a la pagina de productos";
+    }else{
+        document.getElementById("pagoTotal").innerText = `El costo total a pagar es: ${localStorage.getItem(100)}`;
+    }
     
 }
+
 
 mostrarCarrito();
