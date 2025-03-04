@@ -1,8 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const menuBtn = document.getElementById('menu-btn');
-    const navMenu = document.getElementById('nav-menu');
+const menuBtn = document.getElementById('menu-btn');
+const navMenu = document.getElementById('nav-menu');
 
-    menuBtn.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-    });
+menuBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
 });

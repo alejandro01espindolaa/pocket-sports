@@ -59,6 +59,7 @@ header {
 
 /* Inicio modificacion botonm*/
 
+
 .menu-btn {
     background: linear-gradient(45deg, #ff9500, #ffcc00);
     color: #fff;
@@ -729,7 +730,8 @@ footer {
 
 }
   
-  #whatsapp1-button i, #instagram1-button i, #facebook1-button i {
+  
+#whatsapp1-button i, #instagram1-button i, #facebook1-button i {
     font-size: 24px; 
    
 }

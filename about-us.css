@@ -512,3 +512,62 @@ footer {
         font-size: 0.95rem;
     }
 }
+
+#whatsapp1-button, #instagram1-button , #facebook1-button,#youtube1-button, #twitter1-button  {
+   
+    background-color: #1b1b1b;
+    color: #ff9500;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 24px;  
+    text-align: center;
+    z-index: 1000;
+    text-decoration: none;
+   
+}
+  
+  
+#facebook1-button {
+  
+  
+    font-size: 22px;
+    left: 10%;
+}
+  
+  
+#whatsapp1-button {
+    font-size: 22px;
+    left: 20%;
+}
+  
+  
+  #instagram1-button {
+    font-size: 21px;
+    left: 30%;
+}
+  
+  
+#youtube1-button:hover, #twitter1-button:hover, #facebook1-button:hover, #whatsapp1-button:hover, #instagram1-button:hover {
+    background-color: rgb(71, 71, 71);
+    color:  #ffcc00;
+
+}
+  
+  
+#whatsapp1-button i, #instagram1-button i, #facebook1-button i {
+    font-size: 24px; 
+   
+}
+  
+  
+#youtube1-button {
+    font-size: 20px;
+    left: 40%;
+}
+  
+  
+#twitter1-button {
+    
+    font-size: 20px;
+    left: 50%;
+}
