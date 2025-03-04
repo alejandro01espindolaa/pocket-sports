@@ -40,13 +40,11 @@ header {
 .logo {
     font-size: 28px;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     color: #fff;
-    background: linear-gradient(45deg, #ff9500, #ffcc00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 .small-logo {
     width: 30px; /* Tamaño pequeño */
@@ -171,19 +169,8 @@ h2 {
     padding-bottom: 15px;
     text-align: center;
     position: relative;
-    color: #ff9500;
+    color: #ffffff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-}
-
-h2::after {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 3px;
-    background: linear-gradient(to right, #ff9500, #ffcc00);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .journey, .innovation, .community {
@@ -203,7 +190,7 @@ h2::after {
 h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #ffcc00;
+    color: #ffffff;
     text-align: center;
 }
 
