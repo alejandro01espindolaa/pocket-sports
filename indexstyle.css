@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; /* Cambia la fuente aquí */
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -12,7 +12,7 @@ body {
     background: linear-gradient(135deg, #333333, #1a1a1a);
     color: #ffffff;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif; /* También puedes agregarlo aquí para mayor seguridad */
+    font-family: 'Poppins', sans-serif; /
 }
 
 .container {
@@ -41,11 +41,11 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 8px; /* Espaciado entre el logo y el texto */
+    gap: 8px; 
 }
 
 .small-logo {
-    width: 30px; /* Tamaño pequeño */
+    width: 30px; 
     height: auto;
 }
 
@@ -56,9 +56,6 @@ header {
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
-/* Inicio modificacion botonm*/
-
 
 .menu-btn {
     background: linear-gradient(45deg, #ff9500, #ffcc00);
@@ -686,8 +683,6 @@ footer {
         font-size: 14px;
     }
 }
-
-
 /* new edicion */
 
 #whatsapp1-button, #instagram1-button , #facebook1-button,#youtube1-button, #twitter1-button  {
@@ -705,8 +700,6 @@ footer {
   
   
 #facebook1-button {
-  
-  
     font-size: 22px;
     left: 10%;
 }

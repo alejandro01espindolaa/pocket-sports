@@ -37,20 +37,22 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.small-logo {
+    width: 30px; 
+    height: auto;
+}
+
+.logo {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 1px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.small-logo {
-    width: 30px; /* Tamaño pequeño */
-    height: auto;
-}
-
-.logo span {
-    color: #ffcc00;
 }
 
 .menu-btn {
@@ -384,6 +386,7 @@ footer {
 .footer-column {
     flex: 1;
     min-width: 200px;
+    text-align: left;
 }
 
 .footer-logo {
@@ -470,6 +473,23 @@ footer {
     padding-left: 20px;
 }
 
+.contact-info {
+    list-style: none;
+}
+
+.contact-info li {
+    color: #d0d0d0;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-info-icon {
+    margin-right: 10px;
+    color: #ff9500;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
@@ -532,11 +552,6 @@ footer {
     }
 }
 
-#tennisNiña {
-    align-items: center;
-    width: 50%;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -556,8 +571,6 @@ html {
   
   
 #facebook1-button {
-  
-  
     font-size: 22px;
     left: 10%;
 }
@@ -569,7 +582,7 @@ html {
 }
   
   
-  #instagram1-button {
+#instagram1-button {
     font-size: 21px;
     left: 30%;
 }
@@ -595,7 +608,7 @@ html {
   
   
 #twitter1-button {
-    
     font-size: 20px;
     left: 50%;
 }
+

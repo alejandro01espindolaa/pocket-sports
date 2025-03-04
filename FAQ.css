@@ -320,8 +320,14 @@ textarea::placeholder {
   border-radius: 50%;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
 .small-logo {
-  width: 30px; /* Tamaño pequeño */
+  width: 30px; 
   height: auto;
 }
 
@@ -331,13 +337,6 @@ textarea::placeholder {
   letter-spacing: 1px;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  gap: 8px; /* Espaciado entre el logo y el texto */
-}
-
-.logo span {
-  color: #ffcc00;
 }
 
 .menu-btn {
