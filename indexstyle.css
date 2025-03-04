@@ -814,6 +814,7 @@ footer {
 
 }
 
+
 nav {
     position: fixed;
     top: 70px; /* Ajuste según altura del header */
@@ -821,7 +822,8 @@ nav {
     z-index: 1001;
     background: linear-gradient(to right, #363636, #444);
     padding: 15px;
-    width: 280px;
+    width: 25%;
+    height: 100%;
     display: none;
     flex-direction: column;
     gap: 8px;
@@ -855,7 +857,7 @@ nav {
   nav #tooglemenu :hover {
     background: linear-gradient(45deg, #ff9500, #ffcc00);
     color: #fff;
-    color: #ff9d15;
+    
 
   }
 
@@ -864,3 +866,4 @@ nav {
     text-decoration: none;
     text-decoration: dashed;
   }
+  
