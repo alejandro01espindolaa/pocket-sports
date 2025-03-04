@@ -28,29 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       item.classList.toggle("active");
     });
   });
-  /*
-  // Funcionalidad para el sistema de calificación
-  const ratingLabels = document.querySelectorAll(".rating-select label");
-
-  ratingLabels.forEach((label) => {
-    label.addEventListener("mouseover", function () {
-      // Reset all stars
-      ratingLabels.forEach((l) => (l.style.color = "#ddd"));
-
-      // Highlight hovered star and all stars before it
-      let currentLabel = this;
-      while (currentLabel) {
-        currentLabel.style.color = "#ffdb70";
-        currentLabel = currentLabel.previousElementSibling;
-
-        // Skip input elements
-        if (currentLabel && currentLabel.tagName === "INPUT") {
-          currentLabel = currentLabel.previousElementSibling;
-        }
-      }
-    });
-  });
-*/
+  
   // Seleccionar los labels en el orden correcto
   const ratingLabels = document.querySelectorAll(".rating-select label");
   let selectedRating = 0; // Almacena la calificación seleccionada
