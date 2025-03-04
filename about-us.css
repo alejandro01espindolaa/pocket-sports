@@ -42,11 +42,15 @@ header {
     font-weight: bold;
     letter-spacing: 1.5px;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background: linear-gradient(45deg, #ff9500, #ffcc00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.small-logo {
+    width: 30px; /* Tamaño pequeño */
+    height: auto;
 }
 
 .menu-btn {
@@ -69,7 +73,7 @@ header {
 
 .menu-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 149, 0, 0.6);
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .menu-btn span {

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     color: #ffffff;
     overflow-x: hidden;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -42,6 +43,11 @@ header {
     letter-spacing: 1px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.small-logo {
+    width: 30px; /* Tamaño pequeño */
+    height: auto;
 }
 
 .logo span {

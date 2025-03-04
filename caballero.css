@@ -44,6 +44,11 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.small-logo {
+    width: 30px; /* Tamaño pequeño */
+    height: auto;
+}
+
 .logo span {
     color: #ffcc00;
 }
