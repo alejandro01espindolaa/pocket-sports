@@ -348,6 +348,7 @@ footer {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .social-links {
@@ -379,6 +380,7 @@ footer {
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 .footer-title::after {
@@ -511,15 +513,19 @@ footer {
     }
     
     h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     h3 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     
     p {
-        font-size: 0.95rem;
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
     }
 }
 
@@ -599,7 +605,12 @@ footer {
         flex-direction: column;
         gap: 30px;
     }
+    .footer-column {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
 
 @media (max-width: 576px) {
     .logo {
