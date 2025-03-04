@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pocket Sports - Preguntas Frecuentes y Reseñas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="FAQ.css" />
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  </head>
+  <body>
+    <!-- Header (mantener el existente) -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="images/Logo PS.png" alt="Logo" class="small-logo"> 
+                Pocket Sports
+            </div>
+            <button id= "tooglemenu" onclick="toggleMenu()">☰</button>
+        </div>    
+        </div>
+    </header>
+
+  
+      <nav id="menu" id="display: none;">
+        
+            <button id="tooglemenu"><a href="index.html">Home</a></button>
+            <button id="tooglemenu"><a href="ContactoSoporte.html">Contacto a oporte</a></button>
+            <button id="tooglemenu"><a href="">Misión y Visión</a></button>
+            <button id="tooglemenu"><a href="#">Localización y ubicaciones</a></button>
+            <button id="tooglemenu"><a href="FAQ.html">Preguntas Frecuentes</a></button>
+            <button id="tooglemenu"><a href="#">Ofertas Disponibles</a></button>
+            <button id="tooglemenu"><a href="carrito.html">Realizar Compras</a></button>
+        
+    </nav>
+
+    <!-- Sección de FAQ -->
+    <section class="faq-section">
+      <div class="container faq-container">
+        <div class="faq-intro animate-fadeIn">
+          <h2 class="section-title">Preguntas Frecuentes</h2>
+          <p>
+            Encuentra respuestas a las preguntas más comunes sobre nuestros
+            productos y servicios.
+          </p>
+        </div>
+
+        <div class="faq-list animate-fadeIn">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <div class="faq-question">
+              ¿Cuál es el tiempo de entrega para productos?
+            </div>
+            <div class="faq-answer">
+              <p>
+                En Pocket Sports garantizamos la entrega de todos nuestros
+                productos en menos de 24 horas para clientes ubicados en áreas
+                metropolitanas. Para zonas rurales o remotas, el tiempo de
+                entrega puede extenderse hasta 48-72 horas dependiendo de la
+                ubicación específica. Todos los pedidos incluyen seguimiento en
+                tiempo real para que puedas monitorear tu paquete.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <div class="faq-question">
+              ¿Cómo puedo realizar un cambio o devolución?
+            </div>
+            <div class="faq-answer">
+              <p>
+                Aceptamos cambios y devoluciones dentro de los 30 días
+                posteriores a la compra, siempre que el producto se encuentre en
+                su estado original con todas las etiquetas y empaques. Para
+                iniciar el proceso, simplemente completa el formulario de
+                devolución en nuestra página de soporte o contacta a nuestro
+                servicio de atención al cliente. Ofrecemos opciones de recogida
+                a domicilio sin costo adicional.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <div class="faq-question">¿Qué métodos de pago aceptan?</div>
+            <div class="faq-answer">
+              <p>Aceptamos múltiples formas de pago para tu comodidad:</p>
+              <ul class="lista1">
+                <li>
+                  Tarjetas de crédito y débito (Visa, MasterCard, American
+                  Express)
+                </li>
+                <li>PayPal</li>
+                <li>Transferencia bancaria</li>
+                <li>Pago contra entrega (sólo en ciertas ubicaciones)</li>
+                <li>Billeteras digitales (Apple Pay, Google Pay)</li>
+              </ul>
+              <p>
+                Todos nuestros métodos de pago están protegidos con la última
+                tecnología en seguridad de transacciones.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item">
+            <div class="faq-question">¿Ofrecen envíos internacionales?</div>
+            <div class="faq-answer">
+              <p>
+                Sí, ofrecemos envíos internacionales a más de 40 países. Los
+                tiempos de entrega para pedidos internacionales varían entre
+                5-10 días hábiles dependiendo del destino. Los costos de envío y
+                posibles impuestos de importación se calculan automáticamente
+                durante el proceso de compra en base a tu ubicación. Para
+                algunos países, ofrecemos opciones de envío premium con entrega
+                en 3-5 días hábiles.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item">
+            <div class="faq-question">
+              ¿Cómo saber qué talla me corresponde?
+            </div>
+            <div class="faq-answer">
+              <p>
+                Cada producto en nuestra tienda cuenta con una guía de tallas
+                específica que puedes consultar antes de realizar tu compra.
+                Además, ofrecemos nuestra herramienta interactiva "Encuentra Tu
+                Talla Perfecta" donde puedes ingresar tus medidas y te
+                recomendaremos la talla ideal según cada marca y modelo. Si aún
+                tienes dudas, nuestro equipo de asesores está disponible por
+                chat o llamada para ayudarte a elegir la talla correcta.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item">
+            <div class="faq-question">¿Sus productos son eco-amigables?</div>
+            <div class="faq-answer">
+              <p>
+                Nuestro compromiso con el medio ambiente es uno de nuestros
+                pilares fundamentales. Actualmente, más del 60% de nuestro
+                catálogo está fabricado con materiales reciclados o sostenibles.
+                Cada producto incluye información detallada sobre su impacto
+                ambiental y los materiales utilizados en su fabricación. Además,
+                nuestro programa de reciclaje te permite devolver productos
+                antiguos para recibir descuentos en tus nuevas compras mientras
+                contribuyes al cuidado del planeta.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario para preguntas de usuarios -->
+        <div class="user-question-form animate-fadeIn">
+          <h3>¿No encuentras lo que buscas?</h3>
+          <p>Envíanos tu pregunta y te responderemos a la brevedad.</p>
+          <form>
+            <div class="form-group">
+              <label for="user-name">Nombre</label>
+              <input
+                type="text"
+                id="user-name"
+                placeholder="Nombre"
+                name="user-name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="user-email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="user-email"
+                placeholder="Correo electronico"
+                name="user-email"
+                S
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="user-question">Tu Pregunta</label>
+              <textarea
+                placeholder="¿Qué quieres preguntar?"
+                id="user-question"
+                name="user-question"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn" onclick="graciasP()">
+              Enviar Pregunta
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Reseñas -->
+    <section class="reviews-section">
+      <div class="container reviews-container">
+        <div class="reviews-intro animate-fadeIn">
+          <h2 class="section-title">Opiniones de Nuestros Clientes</h2>
+          <p>
+            Descubre lo que otros deportistas piensan sobre nuestros productos y
+            servicios.
+          </p>
+        </div>
+
+        <div class="reviews-grid animate-fadeIn">
+          <!-- Reseña 1 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">
+                <img
+                  class="testimonial-img"
+                  alt="Photo of customer Ben Hadley"
+                  src="imagenes/customer-1.jpg"
+                />
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-name">María González</div>
+                <div class="review-date">15 de febrero, 2025</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+            <div class="review-content">
+              <p>
+                Compré este balón hace un par de semanas y hasta ahora ha
+                superado mis expectativas. La textura es perfecta para un buen
+                control, y el material parece bastante resistente. Lo he usado
+                en césped natural y sintético, y mantiene su forma sin
+                problemas.
+              </p>
+              <!--<div class="review-product-image">
+                <img src="imagenes/balon.jpg" alt="Zapatillas de running">
+                <p class="review-product-caption">Balon Negro - CR7</p>
+            </div>-->
+            </div>
+          </div>
+
+          <!-- Reseña 2 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">
+                <img
+                  class="testimonial-img"
+                  alt="Photo of customer Ben Hadley"
+                  src="imagenes/customer-2.jpg"
+                />
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-name">Juan Rodríguez</div>
+                <div class="review-date">3 de febrero, 2025</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★☆</div>
+            <div class="review-content">
+              <p>
+                Este balón de baloncesto es una opción increíble para aquellos
+                que buscan un balón de alta calidad y durabilidad. Está
+                fabricado con cuero genuino, lo que le da una excelente
+                sensación y agarre. Me atrevo a decir que es tan bueno como el
+                que utilizan en los partidos oficiales de la NBA.
+              </p>
+              <!--<div class="review-product-image">
+                <img src="imagenes/baloncesto.jpg" alt="Zapatillas de running">
+                <p class="review-product-caption">Balon basquet profesional - NBA</p>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Reseña 3 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">
+                <img
+                  class="testimonial-img"
+                  alt="Photo of customer Ben Hadley"
+                  src="imagenes/customer-3.jpg"
+                />
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-name">Ana López</div>
+                <div class="review-date">28 de enero, 2025</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+            <div class="review-content">
+              <p>
+                El casco de béisbol es una opción fantástica para los jóvenes
+                jugadores que buscan la máxima protección y comodidad en el
+                campo. Diseñado con un material de ABS plástico de alta
+                resistencia, este casco garantiza una excelente durabilidad y
+                protección contra impactos
+              </p>
+              <!--<div class="review-product-image">
+               <img src="imagenes/cascoNiño.jpg" alt="Zapatillas de running">
+                <p class="review-product-caption">C. Seguridad - Rojo</p>
+            </div> -->
+            </div>
+          </div>
+
+          <!-- Reseña 4 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">
+                <img
+                  class="testimonial-img"
+                  alt="Photo of customer Ben Hadley"
+                  src="imagenes/customer-4.jpg"
+                />
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-name">Carlos Mendoza</div>
+                <div class="review-date">20 de enero, 2025</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★☆☆</div>
+            <div class="review-content">
+              <p>
+                La colchoneta de espuma de memoria de alta densidad es una
+                opción excelente para aquellos que buscan comodidad y soporte en
+                cualquier lugar. Diseñada con materiales de alta calidad, esta
+                colchoneta ofrece una experiencia de descanso superior y es
+                ideal para una variedad de actividades.
+              </p>
+              <!--<div class="review-product-image">
+                <img src="imagenes/colchoneta.jpg" alt="Zapatillas de running">
+                <p class="review-product-caption">Colchoneta cómoda - Tropical </p>
+            </div>-->
+            </div>
+          </div>
+
+          <!-- Reseña 5 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">
+                <img
+                  class="testimonial-img"
+                  alt="Photo of customer Ben Hadley"
+                  src="imagenes/customer-6.jpg"
+                />
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-name">Laura Torres</div>
+                <div class="review-date">12 de enero, 2025</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+            <div class="review-content">
+              <p>
+                Estas gafas de natación para niña están diseñadas
+                específicamente para brindar comodidad y protección en el agua,
+                perfectas para las pequeñas nadadoras que disfrutan de
+                actividades acuáticas. Con una montura de silicona flexible y
+                resistente, estas gafas aseguran un ajuste seguro y una
+                protección óptima contra el cloro y otros irritantes.
+              </p>
+              <!--<div class="review-product-image">
+                <img src="imagenes/gafasNiña.jpg" alt="Zapatillas de running">
+                <p class="review-product-caption">Gafas niña - Rosa </p>
+            </div>-->
+            </div>
+          </div>
+
+          <!-- Reseña 6 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">
+                <img
+                  class="testimonial-img"
+                  alt="Photo of customer Ben Hadley"
+                  src="imagenes/customer-5.jpg"
+                />
+              </div>
+              <div class="reviewer-info">
+                <div class="reviewer-name">Roberto Fernández</div>
+                <div class="review-date">5 de enero, 2025</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+            <div class="review-content">
+              <p>
+                Estas gafas de natación para niño están diseñadas pensando en la
+                seguridad y el confort, perfectas para los pequeños nadadores
+                que disfrutan de actividades acuáticas. Con una montura de
+                silicona flexible y resistente, estas gafas son ideales para el
+                uso en piscinas, playas y cualquier entorno acuático,
+                garantizando una excelente protección y comodidad.
+              </p>
+              <!--<div class="review-product-image">
+                <img src="imagenes/gafasNiño.jpg" alt="Zapatillas de running">
+                <p class="review-product-caption">Gafas niño - Azul </p>
+            </div>-->
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario para agregar reseña -->
+        <div class="add-review-form animate-fadeIn">
+          <h3>Comparte tu Experiencia</h3>
+          <p>
+            Tu opinión nos ayuda a mejorar y a otros clientes a tomar mejores
+            decisiones.
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="reviewer-name">Nombre</label>
+
+              <input
+                type="text"
+                id="reviewer-name"
+                name="reviewer-name"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="reviewer-email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="reviewer-email"
+                name="reviewer-email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="product-name">Producto Adquirido</label>
+              <input
+                type="text"
+                id="product-name"
+                name="product-name"
+                placeholder="Zapatillas"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Calificación</label>
+              <div class="rating-select">
+                <input
+                  type="radio"
+                  id="star1"
+                  name="rating"
+                  value="1"
+                  required
+                />
+                <label for="star1">★</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2">★</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3">★</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4">★</label>
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5">★</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="review-text">Tu Opinión</label>
+              <textarea
+                id="review-text"
+                name="review-text"
+                placeholder="Tu opinion es importante para nosotros. ¡Escríbenos!"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn" onclick="graciasR()">
+              Publicar Reseña
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+   <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">Pocket Sports</div>
+                    <p class="footer-about">Somos una tienda deportiva innovadora comprometida con la tecnología, el medio ambiente y la satisfacción de nuestros clientes.</p>
+                    <div class="social-links">
+                        <a href="https://www.whatsapp.com/" id="whatsapp1-button" target="_blank" class="fab fa-whatsapp"></a>
+                        <a href="https://www.instagram.com/" id="instagram1-button" target="_blank" class="fab fa-instagram"></a>
+                        <a href="https://www.facebook.com" id="facebook1-button" target="_blank" class="fab fa-facebook"></a>
+                        <a href="https://www.youtube.com/" id="youtube1-button" target="_blank" class="fab fa-youtube"></a>
+                        <a href="https://x.com/" id="twitter1-button" target="_blank" class="fab fa-twitter"></a>
+                    <h4> Visita Nuetras redes</h4>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Quiénes Somos</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Ofertas Especiales</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Soporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+    </footer>
+
+    <!-- Script para la funcionalidad de FAQ -->
+    <script src="FAQ.js"></script>
+  </body>
+</html>
