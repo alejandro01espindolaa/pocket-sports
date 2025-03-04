@@ -10,6 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="indexstyle.css">
     <script src="index.js"></script>
+      <link rel="stylesheet" href="indexstyle.css">
+    <script src="index.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexstyle.css">
+
+    
 </head>
 <body>
     <!-- Header -->
@@ -19,23 +38,22 @@
                 <img src="images/Logo PS.png" alt="Logo" class="small-logo"> 
                 Pocket Sports
             </div>
-            <button class="menu-btn" id="menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="nav-menu" id="nav-menu">
-                <ul>
-                    <li><a href="#">Quiénes Somos</a></li>
-                    <li><a href="#">Contáctanos para Soporte</a></li>
-                    <li><a href="#">Misión y Visión</a></li>
-                    <li><a href="#">Ubicaciones</a></li>
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Ofertas Exclusivas</a></li>
-                </ul>
-            </nav>
+            <button id= "tooglemenu" onclick="toggleMenu()">☰</button>
+        </div>    
         </div>
     </header>
+      <nav id="menu" id="display: none;">
+        
+            <button id="tooglemenu"><a href="index.html">Home</a></button>
+            <button id="tooglemenu"><a href="ContactoSoporte.html">Contacto a oporte</a></button>
+            <button id="tooglemenu"><a href="#">Misión y Visión</a></button>
+            <button id="tooglemenu"><a href="#">Localización y ubicaciones</a></button>
+            <button id="tooglemenu"><a href="#">Preguntas Frecuentes</a></button>
+            <button id="tooglemenu"><a href="#">Ofertas Disponibles</a></button>
+            <button id="tooglemenu"><a href="carrito.html">Realizar Compras</a></button>
+        
+    </nav>
+    
 
     <!-- Carrusel -->
     <section class="carousel-section">
